@@ -1,0 +1,127 @@
+#MainMenu {
+    visibility: hidden;
+}
+
+.appview-container .main .block-container {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+}
+
+.appview-container .css-163ttbj .css-1vq4p4l {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+
+.human-line {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+    height: auto;
+    margin: 5px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.AI-line {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+    height: auto;
+    margin: 5px;
+    width: 100%;
+    color: #111111;
+}
+
+.AI-line img {
+    margin-top: 2px;
+}
+
+.chat-bubble {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    max-width: 70%;
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
+
+.stTextInput {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    max-width: 1024px;
+    background-color: #FFFFFF;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+
+.stTextInput p {
+    color: #020202;
+}
+
+.stTextInput > div {
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.stTextInput > div > div {
+    background-color: #F1F2F4;
+}
+
+.stTextInput > div > div > input{
+    color: #020202;
+    caret-color: #FF6200;
+}
+
+.stTextInput > div:nth-child(3) {
+    visibility: hidden;
+}
+
+.custom-header {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    z-index: 1; 
+    background-color: #FF6200;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 78px;
+    max-height: 78px;
+}
+
+header {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+.stApp {
+    background-color: #FFFFFF;
+    scrollbar-width: thin;
+    scrollbar-color: #002776 #f1f1f1;
+}
+
+.stMainBlockContainer {
+    overflow: auto;
+    position: relative;
+    top: 78px;
+    height: calc(100vh - 78px);
+    padding-top: 0;
+}
+
+.stVerticalBlock > div > div > .stVerticalBlock {
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+}
